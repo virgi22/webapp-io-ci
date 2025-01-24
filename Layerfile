@@ -4,4 +4,4 @@ pipeline:
   - run: |
       apt-get update
       apt-get install -y curl
-      echo "Layerfile configurado correctamente"
+      echo "Hola Layerfile configurado correctamente"
