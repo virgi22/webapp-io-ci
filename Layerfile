@@ -1,3 +1,7 @@
 layerfile_version: 0.1
+
 pipeline:
-  - run: echo "Hola mundo en  Webapp.io"
+  - run: |
+      apt-get update
+      apt-get install -y curl
+      echo "Layerfile configurado correctamente"
