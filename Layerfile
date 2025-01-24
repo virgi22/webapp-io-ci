@@ -1,4 +1,4 @@
 layerfile_version: 0.1
 
 pipeline:
-  - run: echo "Layerfile configurado correctamente"
+  - run: echo "Layerfile configurado correctamente "
